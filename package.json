@@ -1,0 +1,31 @@
+{
+  "name": "wavelet",
+  "version": "0.0.0",
+  "description": "A Shred-based API client for DigitalOcean",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pandastrike/wavelet.git"
+  },
+  "keywords": [
+    "DigitalOcean",
+    "API",
+    "Shred"
+  ],
+  "author": "Dan Yoder <dan@pandastrike.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandastrike/wavelet/issues"
+  },
+  "homepage": "https://github.com/pandastrike/wavelet",
+  "dependencies": {
+    "shred": "^1.0.0-alpha-07",
+    "when": "^3.5.0"
+  }
+}
